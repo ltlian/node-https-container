@@ -10,6 +10,8 @@ This container definition allows you to host a simple express server over HTTP a
 
 This setup does not handle hot reloading. For more advanced requirements, libraries such as [Vite](https://vite.dev/) could be used in place of express.
 
+> Alternatively, or if you need to bind to port 80 or 443 while running rootless docker, you could use a reverse proxy as described in this [gist](https://gist.github.com/ltlian/0320987b5eabd9c867df44fe6978cd9c)
+
 ## Running
 
 ### Provide certificates
